@@ -1,0 +1,1191 @@
+/**-----default--css------**/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/**-----font-awesome-------**/
+
+/**
+
+ font-family: 'Poppins', sans-serif;
+
+font-family: 'Roboto', sans-serif; 
+
+**/
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Roboto&display=swap');
+</style>
+
+/**-------------------------------**/
+
+body {
+    font-family: 'Roboto', sans-serif; 
+}
+
+.container {
+    width: 1300px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.container::before,
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1,h2,h3,h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.section-padding-top {
+    padding: 100px;
+}
+
+.section-padding-bottom {
+    padding: 100px;
+}
+
+/**--- default css closed-----**/
+
+/**---------- header start---------**/
+
+.col-50 {
+    width: 50%;
+    padding: 0 15px;
+    float: left;
+}
+/** header-1-------**/
+
+header {
+    background: #212121 ;
+    height: 130px;
+}
+
+.hotline {
+    color: red;
+}
+.hotline ul li {
+    float: left;
+    padding: 10px 15px;
+    list-style: none;
+}
+
+.hotline ul li a {
+    color: white;
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+.login {
+    color: red;
+    float: right;
+}
+
+.login ul li {
+    float: left;
+    padding: 10px 15px;
+    list-style: none;
+}
+
+.login ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/**---------- header end---------**/
+/**--------sub-header---------**/
+
+.col-25 {
+    width: 25%;
+    padding : 0 15px;
+    float: left;
+}
+
+
+.col-75 {
+    width: 75%;
+    padding : 0 15px;
+    float: left;
+}
+
+.sub-header {
+    height : 100px;
+    background: white;
+    
+}
+
+ img {
+    padding: 20px 15px;
+}
+
+.main-menu ul li  {
+   float: left;
+   display:inline-block;
+   list-style: none;
+   padding: 35px 15px;
+
+}
+
+.main-menu ul li a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.main-menu ul li a:hover {
+    color: red;
+}
+
+.search {
+    background: red;
+}
+
+.btn a{
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    background-color: red;
+    transition: .3s;
+    text-decoration: none;
+    border-radius: 50px;
+}
+.btn a:hover{
+    color: #fff;
+
+}
+/**--------sub-header- end--------**/
+
+
+/**-------home section start---------------**/
+.home {
+    height: 80vh;
+    Width: 100%;
+    background-image: url(../img/slider1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.home-content {
+    padding: 200px;
+   margin-left: -150px;
+
+}
+
+.home-content h3 {
+    font-size: 45px;
+    line-height: 60px;
+    text-transform: uppercase;
+    padding-top: 30px;
+    color: red;
+  
+}
+
+.home-content h1 {
+    font-size: 75px;
+    line-height: 75px;
+    text-transform: uppercase;
+    padding-top: 30px;
+    color: white;
+   
+}
+
+.home-content h6 {
+    font-size: 20px;
+    line-height: 32px;
+    padding-top: 30px;
+    color: white;
+   
+
+}
+
+.home-content .btn  {
+    float: left;
+    margin-top: 30px;
+    padding: 10px 20px;
+}
+
+.btn-2 {
+    margin-top: 32px;
+    margin-left: 30px;
+    display: inline-block;
+    background: white;
+    border-radius: 50px;
+    padding: 8px 6px;
+}
+
+.btn-2 a {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+/**-------home section end---------------**/
+
+/**--about section------------ start--**/
+.about {
+    Height: 80vh;
+    width: 100%;
+}
+
+.about-me {
+    margin-top: 50px;
+}
+
+/**.stephen {
+    margin-top: 105px;
+}**/
+
+
+.about-me h2 {
+    margin: 20px;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.about-me h4 {
+    margin: 20px 0;
+    font-size: 16px;
+    margin-left: 15px;
+    line-height: 26px;
+    position:relative;
+    padding-bottom: 20px;
+    margin-left: -3px;
+}
+
+.about-me h4:after{
+    content: "";
+    height: 1px;
+    width: px;
+    color: red;
+    width: 6vw;
+    bottom: 5%;
+    left: 0%;
+    border-bottom: 3px solid red;
+    position: absolute;
+}
+
+.about-me p{
+    padding:15px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+}
+.graph {
+    margin-top: 40px;
+}
+
+.col-100 {
+    width: 100%;
+    height: 37px;
+    background: #f7f7f7;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 1px rgb(255 193 208 / 30%);
+    
+    
+   
+}
+
+.col-85 {
+    height: 37px;
+    background: red;
+    width: 85%;
+   position: relative;
+  
+    
+}
+
+.col-65 {
+    width: 65%;
+    height: 37px;
+    background: red;
+    position: relative;
+   
+}
+
+
+.col-74 {
+    width: 74%;
+    height: 37px;
+    background: red;
+    position: relative;
+    
+}
+
+
+.col-90 {
+    width: 90%;
+    height: 37px;
+    background: red;
+    position: relative;
+}
+
+ .col-85 p {
+    position: absolute;
+    margin: -8px 10px;
+    color: white;
+    
+}
+
+.col-65 p {
+    position: absolute;
+    margin: -8px 10px;
+    color: white;
+}
+
+.col-74 p {
+    position: absolute;
+    margin: -8px 8px;
+    color: white;
+}
+
+.col-90 p {
+    position: absolute;
+    margin: -8px 10px;
+    color: white;
+}
+
+
+#space {
+    margin: 10px 0;
+}
+    /**-------about section------------ end-**/
+
+    /**----------------courses section start---------------**/
+
+.col-33 {
+    width: 33.33%;
+    padding: 0 15px;
+    float: left;
+}
+
+.courses {
+    height: 100vh;
+    width: 100%;
+    background-color:#f9f9f9 ;
+}
+
+.course-head {
+    text-align: center;
+   
+}
+
+.course-head h2 {
+    font-size: 30px;
+    line-height: 40px;
+    padding: 15px;
+}
+
+
+
+.course-head span {
+    color: red;
+}
+
+.course-head p {
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 45px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+.course-box {
+    height: 600px;
+}
+
+.box-bg {
+    position: relative;
+    height: 250px;
+    Width: 100%;
+    overflow: hidden;
+    cursor: pointer;
+   
+
+}
+
+.box-bg img {
+    height: 100%;
+    padding: 0px;
+    width: 100%;
+   
+    
+}
+
+.box-bg:before {
+    content: "";
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+    height: 0%;
+    width: 100%;
+    background: black;
+    opacity: 50%;
+   transition: .5s;
+    
+}
+
+.box-bg:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 0%;
+    width: 100%;
+    background: black;
+    opacity: 50%;
+    transition: .5s;
+    
+}
+
+.box-bg:hover:before {
+    height: 50%;
+}
+
+.box-bg:hover:after {
+    height: 50%;
+  
+}
+
+.course-box:hover .box-bg:before {
+    height: 50%;
+}
+
+.course-box:hover .box-bg:after {
+    height: 50%;
+}
+
+.circle-left {
+    height: 50px;
+    width: 50px;
+    overflow:hidden;
+    border-radius: 50px;
+    border: 1px solid red;
+    background-image: url(../img/redia.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: -30px;
+    z-index: 10;
+    clear: both;
+    position: absolute;
+}
+
+
+.circle-right {
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+    position: relative;
+    display: inline-block;
+    float: right;
+    margin-right: 20px;
+    margin-top: -30px;
+}
+
+.circle-right p {
+    justify-content: center;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 2px;
+    position: absolute;
+}
+
+.program {
+    margin-top: 20px;
+    text-align: center;
+    background: #ffffff;
+}
+
+.program h5 {
+    font-size: 14px;
+    line-height: 26px;
+    
+}
+
+.program h4 {
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #bbb4b566;
+}
+
+.star {
+    padding: 10px;
+}
+
+.star p {
+    display: inline-block;
+    padding: 5px;
+}
+
+.star span {
+    padding: 0 15px;
+    border-right: 1px solid #af9d9d;
+    color: red;
+}
+
+.para {
+    font-size: 14px;
+    line-height: 26px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+.box-end {
+    background: #f0f0f0;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.end-left {
+    display: inline-block;
+    padding: 10px 30px;
+    border-right: 1px solid #dab4b4;
+}
+
+.end-right {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+span.duration {
+    display: block;
+}
+
+span.enroll {
+    display: block;
+}
+
+span.week {
+    margin-left: 30px;
+}
+
+span.wow {
+    margin-left: 40px;
+}
+
+    /**---------------courses section end---------------**/
+
+    /**---------Data-section- start------------**/
+
+.data-base {
+    height: 40vh;
+    width: 100%;
+    background-image: url(../img/bg3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.box-1 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+span.number {
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: 900;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+}
+    
+.i-ca {
+    
+color: red;
+    
+display: block;
+    
+padding: 10px;
+}
+    
+.box-1 p {
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+}
+/**---------Data-section- end-------------**/
+
+/**--learning object--------start-->**/
+
+.learning-obj {
+    height: 100vh;
+    width: 100%;
+    background: #f9f9f9;
+}
+
+.col-33 {
+    width: 33.33%;
+    padding: 15px 15px;
+    float: left;
+}
+
+.learning-title {
+    text-align: center;
+    padding: 30px;
+}
+
+.learning-title h3 {
+    font-family: 'Poppins', sans-serif;
+    Font-size:30px;
+    line-height: 40px;
+}
+
+.learning-title span {
+    color: red;
+}
+
+.learning-title p {
+    font-size:16px;
+    line-height: 26px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.obj-box {
+height: 300px;
+text-align: center;
+border: 1px solid #e0e0e0;
+background: #f2f2f2;
+}
+
+.obj-box h2{
+    font-family: 'Poppins', sans-serif;
+    Font-size:20px;
+    line-height: 30px;
+}
+
+.obj-box p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+/**--learning object--------end--**/
+
+/**----section comment start-----**/
+.comments {
+    height: 80vh;
+    width: 100%;
+    background: url(../img/cta-bg2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.comments-title {
+    text-align: center;
+}
+
+.comments-box img {
+    height: 100px;
+    border-radius: 50%;
+    padding: 10px;
+    background: white;
+}
+
+.comments-title h2 {
+    font-size: 30px;
+    line-height: 40px;
+    color:white;
+    padding: 5px;
+}
+
+.comments-title p {
+    font-size: 16px;
+    line-height: 26px;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    padding-bottom: 50px;
+}
+
+.comments-title span {
+    color: red;
+}
+
+span.left-q {
+    color: red;
+    margin-left: -450px;
+}
+
+span.right-q {
+    color: red;
+    margin-left: 450px;
+}
+
+.cmnt-bdy h5 {
+    
+font-size: 20px;
+    
+line-height: 30px;
+    
+padding: 10px;
+}
+
+.cmnt-bdy p {
+    color: black;
+}
+
+
+.cmnt-bdy {
+    padding: 30px;
+    background: white;
+    margin-top: -50px;
+}
+.scroll {
+    display: inline-block;
+    margin-left: 780px;
+    color: rgb(157, 12, 12);
+    padding-top: 30px;
+}
+    
+.scroll span {
+    padding-left: 20px;
+}
+
+span.red {
+    background: red;
+    padding: 0px;
+}
+
+
+/**-----section comment end-----**/
+
+/**--latest post section start-**/
+.posts {
+    height: 90vh;
+    width: 100%
+}
+
+
+.posts-title h2 {
+    font-family: 'Poppins', sans-serif;
+    Font-size:30px;
+    line-height: 40px;
+    Margin-left: 40px;
+}
+
+.posts-title p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 26px;
+    font-size:16px;
+    margin-left: 40px;
+}
+.posts-title span {
+    color:red;
+}
+
+.left-part {
+   
+    margin-top: 50px;
+   
+}
+
+
+.left-box {
+    border: 1px solid #e8d5d5;
+    height: 130px;
+    width: 550px;
+}
+
+.left-box img {
+    height: 145px;
+    width:140px;
+    float: left;
+    margin-top: -8px;
+}
+
+.left-box h4 {
+    display: inline-block;
+    clear: both;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    Font-size:20px;
+    line-height: 30px;
+}
+
+.left-box span {
+    color: red;
+}
+
+.left-box a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.left-box p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 26px;
+    font-size:14px;
+    margin-left: -20px;
+}
+
+.col-30 {
+    width: 30%;
+    padding:10px 15px;
+    
+}
+
+
+/**right part**/
+.right-box {
+   
+    height: 600px;
+   
+    text-align: center;
+       
+    width: 100%;
+       
+    
+}
+ 
+.web-course {
+    background: url(../img/video-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    margin-top: -50px;
+    }
+
+.web-course h3 {
+    font-family: 'Poppins', sans-serif;
+    Font-size:30px;
+    line-height: 40px;
+    color: white;
+    padding-top: 250px;
+}
+
+.web-course p {
+     font-family: 'Roboto', sans-serif;
+     font-weight: 300;
+     line-height: 26px;
+     font-size:16px;
+     color:white;
+     padding: 10px;
+     margin-left: 0px;
+}
+
+    
+.btn-4 {
+     margin-top: px;
+     padding: 30px;
+}
+   
+   
+
+.btn-5 {
+     margin-top: 20px;
+     margin-left: 20px;
+}
+/**--latest post section end--**/
+
+/*--prize secvtion start-->*/
+
+.prize {
+    width: 100%;
+    height:500px;
+    background: #f9f9f9;
+    
+   
+}
+.prize-photo {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    justify-content: space-between;
+    transform: translate( 0,50%);
+    
+}
+.pp {
+    display: block;
+}
+
+.adress {
+    display: flex;
+    transform: translate(0px, 180px);
+    align-items: center;
+    justify-content:center;
+    height: 200px;
+    background: #222222;
+    border-radius: 40px;
+    box-shadow: 0 0 20px rgba(0,0,0,.7);
+}
+
+.location {
+     text-align: center;
+     position: relative;
+    
+}
+
+.loc-1:before {
+    content: "";
+    border: 1px solid white;
+    position: absolute;
+    height: 140px;
+    margin-left: -176px;
+    margin-top: -6px;
+}
+
+
+.loc-1:after{
+    content: "";
+    border: 1px solid white;
+    position: absolute;
+    height: 140px;
+    transform: translate(180px, -130px);
+}
+
+.loc-1 {
+    border-left: 2.1px solid white;
+    border-right: 2.1px solid white;
+}
+
+.loc-2 {
+    border-right: 2.1px solid white;
+    width: px;
+    margin-left: -90px;
+    width: 461px;
+}
+
+.loc-3 {
+    border-left: 2.1px solid white;
+    border-left: 2.1px solid white;
+    width: 430px;
+    margin-left: -18px;
+}
+.location span {
+    color: red;
+}
+
+
+.location h4 {
+    font-family: 'Poppins', sans-serif;
+    Font-size: 20px;
+    line-height: 34px;
+    color: white;
+    padding: 10px;
+}
+
+.location p {
+    font-family: 'Roboto', sans-serif;
+     font-weight: 300;
+     font-size: 15;
+     line-height: 26px;
+     color: white;
+}
+/*--prize secvtion end-->*/
+
+/**<!--footer start-->**/
+.footer {
+    width: 100%;
+    height: 65vh;
+    background: url(../img/counter-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;9
+}
+
+.eshkool {
+    transform: translate(10px, 150px);
+}
+
+.b-1 p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14;
+    line-height: 26px;
+}
+
+.b-4 p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14;
+    line-height: 26px;
+}
+
+.b-5 p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14;
+    line-height: 26px;
+
+}
+
+
+.h-4 {
+    position: relative;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+
+
+.h-4:after{
+    content: "";
+    height: 1px;
+   
+    color: red;
+    width: 3vw;
+    bottom: 5%;
+    left: 0%;
+    border-bottom: 1px solid red;
+    position: absolute;
+}
+
+.datee {
+    display: inline-block;
+    width: 60px;
+    height: px;
+}
+
+ul.datee-1 {
+    border-bottom: 1px solid #3c3c3c;
+}
+
+.datee span {
+    padding: 6px;
+    background: red;
+    display: block;
+    text-align: center;
+}
+span.number-1 {
+    text-align: center;
+}
+.b-3 ul li {
+   
+    list-style-type: none;
+   
+    padding: 20px;
+   
+    margin-top: px;
+}
+
+.b-3 ul {
+    display: flex;
+    text-align: space-between;
+    margin-top: 20px;
+    padding: 20px 0;
+}
+
+.b-4 ul {
+    display: inline-block;
+    padding: 20px;
+    
+    margin-left: -24px;
+}
+
+.b-4 li {
+    list-style-type: none;
+    
+    padding: 8px;
+}
+
+.b-4 li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.b-5 p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14;
+    line-height: 26px;
+    padding: 10px;
+    margin-left: -20px;
+    
+}
+
+.b-5 i {
+    color: white;
+    transform: translate(-46px, 16px);
+    position: absolute;
+    z-index: 1;
+}
+
+input.email {
+    padding: 15px;
+    border-radius: 30px;
+    width: 250px;
+    margin-left: -20px;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    border-radius: 20px;
+    transform: translate( 10px 20px);
+    transform: translate(158px, -44px);
+    background: red;
+    width: 70px;
+}
+
+
+.footer-share {
+    transform: translate(-85px, 249px);
+}
+
+.footer-share ul {
+    
+}
+.footer-share ul li {
+    display: inline-block;
+    margin-left: 10px;
+
+}
+.footer-share li a {
+    background: rgba(255,255,255,.15);
+    text-align: center;
+    color: #fbf4f4;
+    padding: 12px;
+    border-radius: 50%;
+}
+
+.footer-share li a:hover {
+    background: red
+}
+
+.f-end {
+    width: 100%;
+    height: 50px;
+    transform: translate(0, 259px);
+    border-top: 1px solid #585858;
+}
+
+.f-end p {
+    color:white;
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+/**<!--footer end-->**/
+
+
+
